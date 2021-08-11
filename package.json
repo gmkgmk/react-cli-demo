@@ -10,13 +10,17 @@
   ],
   "author": "guo.mk",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "customize-cra": "^1.0.0",
+    "husky": "^7.0.1",
     "react": "^17.0.2",
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.2",
@@ -27,7 +31,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "prepare": "husky install"
   },
   "workspaces": {
     "packages": [
