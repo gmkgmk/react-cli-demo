@@ -1,8 +1,12 @@
-import './App.css';
+import './App.less';
 import Button from 'button';
-console.log('Button: ', Button);
 function App() {
-  return <Button />;
+  return (
+    <div>
+      <Button>按钮</Button>
+      <Button />
+    </div>
+  );
 }
 
 export default App;
