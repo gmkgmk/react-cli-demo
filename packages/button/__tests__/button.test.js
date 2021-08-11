@@ -3,5 +3,5 @@
 const button = require('..');
 
 describe('button', () => {
-    it('needs tests');
+  it('needs tests');
 });

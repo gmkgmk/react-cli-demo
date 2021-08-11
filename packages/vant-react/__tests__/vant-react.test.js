@@ -3,5 +3,5 @@
 const vantReact = require('..');
 
 describe('vant-react', () => {
-    it('needs tests');
+  it('needs tests');
 });

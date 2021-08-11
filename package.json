@@ -33,7 +33,8 @@
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
     "prepare": "husky install",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick",
+    "prettier": "prettier -c --write '**/*'"
   },
   "workspaces": {
     "packages": [
