@@ -32,7 +32,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pretty-quick": "pretty-quick"
   },
   "workspaces": {
     "packages": [
