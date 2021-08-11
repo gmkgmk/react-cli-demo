@@ -1,7 +1,7 @@
-'use strict';
-
-module.exports = vantReact;
+"use strict";
 
 function vantReact() {
-    // TODO
+  // TODO
 }
+
+export default vantReact;
